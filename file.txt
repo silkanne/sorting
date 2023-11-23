@@ -1,0 +1,6 @@
+Problem: Determine if a word reads the same forwards and backward.
+ Start with two pointers, one at the beginning of the word and one at the end of the word.
+ Compare the letters at these positions. Are they the same?
+ If they are the same, move the forward pointer one step forward and the backward pointer one step backward.
+ Keep comparing and moving the pointers until they meet in the middle or cross each other.
+ If you reach the point where the two pointers meet, or if they cross each other and all comparisons were the same, then it's a palindrome!
